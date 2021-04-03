@@ -4,66 +4,8 @@
   "sourceName": "contracts/CrossMarginAccounts.sol",
   "abi": [
     {
-      "anonymous": false,
-      "inputs": [
-        {
-          "indexed": true,
-          "internalType": "address",
-          "name": "previousOwner",
-          "type": "address"
-        },
-        {
-          "indexed": true,
-          "internalType": "address",
-          "name": "newOwner",
-          "type": "address"
-        }
-      ],
-      "name": "OwnershipTransferred",
-      "type": "event"
-    },
-    {
       "inputs": [],
-      "name": "ADMIN",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "AUTHORIZED_FUND_TRADER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "BORROWER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "CONFIDENT_UPDATE_RATE_PERMIL",
+      "name": "UPDATE_MAX_PEG_AMOUNT",
       "outputs": [
         {
           "internalType": "uint256",
@@ -76,176 +18,7 @@
     },
     {
       "inputs": [],
-      "name": "FEE_CONTROLLER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "FEE_SOURCE",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "FUND",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "INCENTIVE_DISTRIBUTION",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "INCENTIVE_REPORTER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "LENDING",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "LIQUIDATOR",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "MARGIN_CALLER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "MARGIN_TRADER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "MARGIN_TRADING",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "PRICE_CONTROLLER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "ROUTER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "STAKE_PENALIZER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "TEPID_UPDATE_RATE_PERMIL",
+      "name": "UPDATE_MIN_PEG_AMOUNT",
       "outputs": [
         {
           "internalType": "uint256",
@@ -258,51 +31,12 @@
     },
     {
       "inputs": [],
-      "name": "TOKEN_ACTIVATOR",
+      "name": "UPDATE_RATE_PERMIL",
       "outputs": [
         {
-          "internalType": "uint16",
+          "internalType": "uint256",
           "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "TOKEN_ADMIN",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "UNI",
-      "outputs": [
-        {
-          "internalType": "address",
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "WITHDRAWER",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
+          "type": "uint256"
         }
       ],
       "stateMutability": "view",
@@ -332,9 +66,14 @@
           "internalType": "uint256",
           "name": "inAmount",
           "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "forceCurBlock",
+          "type": "bool"
         }
       ],
-      "name": "forcePriceUpdate",
+      "name": "getCurrentPriceInPeg",
       "outputs": [
         {
           "internalType": "uint256",
@@ -343,54 +82,6 @@
         }
       ],
       "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "trader",
-          "type": "address"
-        }
-      ],
-      "name": "getBorrowAmounts",
-      "outputs": [
-        {
-          "internalType": "address[]",
-          "name": "borrowTokens",
-          "type": "address[]"
-        },
-        {
-          "internalType": "uint256[]",
-          "name": "borrowAmounts",
-          "type": "uint256[]"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "trader",
-          "type": "address"
-        }
-      ],
-      "name": "getHoldingAmounts",
-      "outputs": [
-        {
-          "internalType": "address[]",
-          "name": "holdingTokens",
-          "type": "address[]"
-        },
-        {
-          "internalType": "uint256[]",
-          "name": "holdingAmounts",
-          "type": "uint256[]"
-        }
-      ],
-      "stateMutability": "view",
       "type": "function"
     },
     {
@@ -414,7 +105,7 @@
     },
     {
       "inputs": [],
-      "name": "leverage",
+      "name": "leveragePercent",
       "outputs": [
         {
           "internalType": "uint256",
@@ -441,25 +132,12 @@
     {
       "inputs": [
         {
-          "internalType": "uint16",
+          "internalType": "uint256",
           "name": "",
-          "type": "uint16"
+          "type": "uint256"
         }
       ],
       "name": "mainCharacterCache",
-      "outputs": [
-        {
-          "internalType": "address",
-          "name": "",
-          "type": "address"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "owner",
       "outputs": [
         {
           "internalType": "address",
@@ -497,13 +175,6 @@
       "type": "function"
     },
     {
-      "inputs": [],
-      "name": "renounceOwnership",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
       "inputs": [
         {
           "internalType": "address",
@@ -511,9 +182,9 @@
           "type": "address"
         },
         {
-          "internalType": "uint16",
+          "internalType": "uint256",
           "name": "",
-          "type": "uint16"
+          "type": "uint256"
         }
       ],
       "name": "roleCache",
@@ -543,21 +214,13 @@
     {
       "inputs": [
         {
-          "internalType": "uint256",
-          "name": "rate",
-          "type": "uint256"
-        }
-      ],
-      "name": "setConfidentUpdateRate",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
           "internalType": "address[]",
           "name": "path",
+          "type": "address[]"
+        },
+        {
+          "internalType": "address[]",
+          "name": "tokens",
           "type": "address[]"
         }
       ],
@@ -575,19 +238,6 @@
         }
       ],
       "name": "setPriceUpdateWindow",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "rate",
-          "type": "uint256"
-        }
-      ],
-      "name": "setTepidUpdateRate",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -614,6 +264,19 @@
         }
       ],
       "name": "setUpdateMinPegAmount",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "rate",
+          "type": "uint256"
+        }
+      ],
+      "name": "setUpdateRate",
       "outputs": [],
       "stateMutability": "nonpayable",
       "type": "function"
@@ -702,22 +365,9 @@
     {
       "inputs": [
         {
-          "internalType": "address",
-          "name": "newOwner",
-          "type": "address"
-        }
-      ],
-      "name": "transferOwnership",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint16",
+          "internalType": "uint256",
           "name": "role",
-          "type": "uint16"
+          "type": "uint256"
         }
       ],
       "name": "updateMainCharacterCache",
@@ -728,9 +378,9 @@
     {
       "inputs": [
         {
-          "internalType": "uint16",
+          "internalType": "uint256",
           "name": "role",
-          "type": "uint16"
+          "type": "uint256"
         },
         {
           "internalType": "address",
@@ -747,15 +397,20 @@
       "inputs": [
         {
           "internalType": "address",
-          "name": "trader",
+          "name": "token",
           "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "inAmount",
+          "type": "uint256"
         }
       ],
-      "name": "viewLoanInPeg",
+      "name": "viewCurrentPriceInPeg",
       "outputs": [
         {
           "internalType": "uint256",
-          "name": "amount",
+          "name": "",
           "type": "uint256"
         }
       ],
