@@ -156,9 +156,9 @@
     {
       "inputs": [
         {
-          "internalType": "address[]",
-          "name": "path",
-          "type": "address[]"
+          "internalType": "bytes32",
+          "name": "amms",
+          "type": "bytes32"
         },
         {
           "internalType": "address[]",
@@ -242,6 +242,16 @@
           "internalType": "uint256",
           "name": "tokenPer1k",
           "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "amms",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "inverseAmms",
+          "type": "bytes32"
         }
       ],
       "stateMutability": "view",
