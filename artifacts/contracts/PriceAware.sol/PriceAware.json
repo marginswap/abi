@@ -5,32 +5,6 @@
   "abi": [
     {
       "inputs": [],
-      "name": "UPDATE_MAX_PEG_AMOUNT",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "UPDATE_MIN_PEG_AMOUNT",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
       "name": "UPDATE_RATE_PERMIL",
       "outputs": [
         {
@@ -53,11 +27,6 @@
           "internalType": "uint256",
           "name": "inAmount",
           "type": "uint256"
-        },
-        {
-          "internalType": "bool",
-          "name": "forceCurBlock",
-          "type": "bool"
         }
       ],
       "name": "getCurrentPriceInPeg",
@@ -188,32 +157,6 @@
       "inputs": [
         {
           "internalType": "uint256",
-          "name": "amount",
-          "type": "uint256"
-        }
-      ],
-      "name": "setUpdateMaxPegAmount",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
-          "name": "amount",
-          "type": "uint256"
-        }
-      ],
-      "name": "setUpdateMinPegAmount",
-      "outputs": [],
-      "stateMutability": "nonpayable",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "uint256",
           "name": "rate",
           "type": "uint256"
         }
@@ -240,7 +183,7 @@
         },
         {
           "internalType": "uint256",
-          "name": "tokenPer1k",
+          "name": "tokenPerRefAmount",
           "type": "uint256"
         },
         {
