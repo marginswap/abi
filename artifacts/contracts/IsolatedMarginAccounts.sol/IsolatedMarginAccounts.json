@@ -5,19 +5,6 @@
   "abi": [
     {
       "inputs": [],
-      "name": "UPDATE_RATE_PERMIL",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
       "name": "amms",
       "outputs": [
         {
@@ -161,19 +148,6 @@
           "internalType": "uint256",
           "name": "holding",
           "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "priceUpdateWindow",
-      "outputs": [
-        {
-          "internalType": "uint16",
-          "name": "",
-          "type": "uint16"
         }
       ],
       "stateMutability": "view",
