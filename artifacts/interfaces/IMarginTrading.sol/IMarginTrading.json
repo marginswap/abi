@@ -22,11 +22,6 @@
           "internalType": "uint256[]",
           "name": "borrowAmounts",
           "type": "uint256[]"
-        },
-        {
-          "internalType": "uint256[]",
-          "name": "borrowAPRPer10k",
-          "type": "uint256[]"
         }
       ],
       "stateMutability": "view",
