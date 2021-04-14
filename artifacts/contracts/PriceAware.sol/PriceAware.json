@@ -27,6 +27,11 @@
           "internalType": "uint256",
           "name": "_updateRatePermil",
           "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_voluntaryUpdateWindow",
+          "type": "uint256"
         }
       ],
       "name": "addVolatilitySetting",
@@ -58,13 +63,18 @@
           "internalType": "uint256",
           "name": "inAmount",
           "type": "uint256"
+        },
+        {
+          "internalType": "bool",
+          "name": "voluntary",
+          "type": "bool"
         }
       ],
       "name": "getCurrentPriceInPeg",
       "outputs": [
         {
           "internalType": "uint256",
-          "name": "",
+          "name": "priceInPeg",
           "type": "uint256"
         }
       ],
@@ -85,6 +95,40 @@
           "internalType": "address",
           "name": "",
           "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "pairPrices",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "cumulative",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "lastUpdated",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "priceFP",
+          "type": "uint256"
         }
       ],
       "stateMutability": "view",
@@ -177,6 +221,11 @@
           "internalType": "uint16",
           "name": "window",
           "type": "uint16"
+        },
+        {
+          "internalType": "uint256",
+          "name": "voluntaryWindow",
+          "type": "uint256"
         }
       ],
       "name": "setPriceUpdateWindow",
@@ -209,12 +258,12 @@
       "outputs": [
         {
           "internalType": "uint256",
-          "name": "blockLastUpdated",
+          "name": "lastUpdated",
           "type": "uint256"
         },
         {
           "internalType": "uint256",
-          "name": "tokenPerRefAmount",
+          "name": "priceFP",
           "type": "uint256"
         },
         {
@@ -279,7 +328,7 @@
       "outputs": [
         {
           "internalType": "uint256",
-          "name": "",
+          "name": "priceInPeg",
           "type": "uint256"
         }
       ],
@@ -304,6 +353,24 @@
         {
           "internalType": "uint256",
           "name": "updateRatePermil",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "voluntaryUpdateWindow",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "voluntaryUpdateWindow",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
           "type": "uint256"
         }
       ],
