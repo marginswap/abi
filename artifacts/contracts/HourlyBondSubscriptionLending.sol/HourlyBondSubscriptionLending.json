@@ -65,6 +65,19 @@
       "type": "function"
     },
     {
+      "inputs": [],
+      "name": "highRatePerPercent",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "inputs": [
         {
           "internalType": "address",
@@ -120,11 +133,6 @@
         },
         {
           "internalType": "uint256",
-          "name": "lendingBuffer",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
           "name": "lendingCap",
           "type": "uint256"
         }
@@ -134,7 +142,7 @@
     },
     {
       "inputs": [],
-      "name": "maxHourlyYieldFP",
+      "name": "normalRatePerPercent",
       "outputs": [
         {
           "internalType": "uint256",
@@ -143,6 +151,25 @@
         }
       ],
       "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "issuer",
+          "type": "address"
+        }
+      ],
+      "name": "updateHourlyYield",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "hourlyYield",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -170,40 +197,8 @@
       "type": "function"
     },
     {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "issuer",
-          "type": "address"
-        }
-      ],
-      "name": "viewLendingTarget",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
       "inputs": [],
       "name": "withdrawalWindow",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "yieldChangePerSecondFP",
       "outputs": [
         {
           "internalType": "uint256",

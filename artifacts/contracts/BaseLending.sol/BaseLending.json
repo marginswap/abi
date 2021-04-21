@@ -33,6 +33,19 @@
       "type": "function"
     },
     {
+      "inputs": [],
+      "name": "highRatePerPercent",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
       "inputs": [
         {
           "internalType": "address",
@@ -54,11 +67,6 @@
         },
         {
           "internalType": "uint256",
-          "name": "lendingBuffer",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
           "name": "lendingCap",
           "type": "uint256"
         }
@@ -68,39 +76,7 @@
     },
     {
       "inputs": [],
-      "name": "maxHourlyYieldFP",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "issuer",
-          "type": "address"
-        }
-      ],
-      "name": "viewLendingTarget",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [],
-      "name": "yieldChangePerSecondFP",
+      "name": "normalRatePerPercent",
       "outputs": [
         {
           "internalType": "uint256",
