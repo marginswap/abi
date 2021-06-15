@@ -69,26 +69,6 @@
           "internalType": "uint256",
           "name": "lendingCap",
           "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "cumulIncentiveAllocationFP",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "incentiveLastUpdated",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "incentiveEnd",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "incentiveTarget",
-          "type": "uint256"
         }
       ],
       "stateMutability": "view",

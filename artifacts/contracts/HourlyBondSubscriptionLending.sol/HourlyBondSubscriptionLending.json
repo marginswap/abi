@@ -106,11 +106,6 @@
           "internalType": "uint256",
           "name": "moduloHour",
           "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "incentiveAllocationStart",
-          "type": "uint256"
         }
       ],
       "stateMutability": "view",
@@ -139,26 +134,6 @@
         {
           "internalType": "uint256",
           "name": "lendingCap",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "cumulIncentiveAllocationFP",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "incentiveLastUpdated",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "incentiveEnd",
-          "type": "uint256"
-        },
-        {
-          "internalType": "uint256",
-          "name": "incentiveTarget",
           "type": "uint256"
         }
       ],
@@ -211,25 +186,6 @@
         }
       ],
       "name": "viewHourlyBondAmount",
-      "outputs": [
-        {
-          "internalType": "uint256",
-          "name": "",
-          "type": "uint256"
-        }
-      ],
-      "stateMutability": "view",
-      "type": "function"
-    },
-    {
-      "inputs": [
-        {
-          "internalType": "address",
-          "name": "token",
-          "type": "address"
-        }
-      ],
-      "name": "viewYearlyIncentivePer10k",
       "outputs": [
         {
           "internalType": "uint256",
