@@ -66,20 +66,20 @@
   },
   "43114": {
     "Admin": "0xBc4f35f44fFC68786B485Bd60a4B40cF4d3C3E03",
-    "CrossMarginTrading": "0x05a23f4c50110399970A315E8FC3ed32F9F17A57",
+    "CrossMarginTrading": "0xfDa3e986e38A913aC3300C2eff168d0D69d698B1",
     "DependencyController": "0x4F080c404ac75986c95959a3AEc98Ac32403770D",
     "Fund": "0x669EA215966e75f0db563dE2298d0CED65ED5d3F",
-    "Lending": "0xb78a7d9b8FdbC7ea732519e5f3f175d17C7c00C1",
-    "LendingMigration": "0xFA74e5b5Af1C8D7B36A05DE0AdB2d8660Fa3Bdd9",
+    "Lending": "0x0576D25BC4fE40b93492702911FDf1866915Acd7",
+    "LendingMigration": "0x00794B39C9f53De95740E78284dE52AAE7eed8e4",
     "LiquidityMiningReward": "0x237B0b367d919Cafa95F9cdcce79D7DE0Bd98E6e",
     "MFIStaking": "0x167db869D99A717E14518B94d252fdC6DEaaCdF1",
-    "MarginHoldingsMigration": "0x0925Ac561d09dfddB8FA84212e8859f65D26445f",
-    "MarginLoansMigration": "0xFC03de5d0f7ea6D68f83c955B67c80f4b4d27227",
+    "MarginHoldingsMigration": "0xe3C9Fc53D933ACaf0Cb6702CA51f36D3f8a8F828",
+    "MarginLoansMigration": "0xC9F75bc352E78865e5Cc5fb3C70a24D554F2e7b5",
     "MarginRouter": "0x917AFF6E5F5E8646506A62b9EfBE9f0e2AC5ca85",
     "Peg": "0xde3A24028580884448a5397872046a019649b084",
     "Roles": "0xb8a63dBb2C5B775067444EaEF60722806524F7FD",
     "SpotRouter": "0x52fA5bCAEBc5f0f8b1a4c1d97C00242151f0c225",
-    "TokenActivation": "0x8597565F6e2DFF430d2ce2672f9eE60B45cDAfCe"
+    "TokenActivation": "0xC95531a7f6C57456718BCd69a5f64829C7973f11"
   },
   "hardhat": {}
 }
