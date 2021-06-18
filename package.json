@@ -1,6 +1,6 @@
 {
   "name": "@marginswap/core-abi",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "Core ABI files and addresses foor marginswap",
   "author": "marginswap",
   "license": "SEE LICENSE IN LICENSE"
